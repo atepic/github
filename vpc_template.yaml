@@ -30,7 +30,7 @@ Resources:
     Properties:
       VpcId: !Ref MyVPC
       CidrBlock: 10.0.0.0/24
-      AvailabilityZone: us-east-1a
+      AvailabilityZone: eu-central-1a
       MapPublicIpOnLaunch: true
       Tags:
         - Key: Name
